@@ -13,6 +13,8 @@
   "author": "Hrvoje Bagaric",
   "license": "MIT",
   "dependencies": {
+    "@types/prop-types": "^15.5.2",
+    "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },

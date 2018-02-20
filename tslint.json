@@ -161,7 +161,7 @@
         "restrict-plus-operands": false,
         "semicolon": [
             true,
-            "ignore-bound-class-methods"
+            "always"
         ],
         "space-before-function-paren": false,
         "strict-boolean-expressions": false,
@@ -189,7 +189,6 @@
         "typeof-compare": true,
         "unified-signatures": true,
         "use-isnan": true,
-        "variable-name": true,
         "whitespace": [
             true,
             "check-branch",
