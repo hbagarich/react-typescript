@@ -1,14 +1,25 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Component } from './component';
+import { StudentProps } from '../demo/student';
+import { Lecture } from '../demo/lecture';
 
 class Index extends React.Component<{}, {}> {
     public render(): JSX.Element {
+        const students: Array<StudentProps> = [
+            {
+                name: 'Mark',
+                surname: 'Markson'
+            },
+            {
+                name: 'Steven',
+                surname: 'Stevenson'
+            }
+        ];
         return (
-            <Component
-                name="barbara"
-                occurance={10}
-                showOccurances={false}
+            <Lecture
+                students={students}
+                lecturerName="Mark"
             />
         );
     }

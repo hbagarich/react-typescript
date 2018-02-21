@@ -19,7 +19,7 @@ export class Lecture extends React.PureComponent<LectureProps, {}> {
 
     public render(): JSX.Element {
         return (
-            <div>
+            <>
                 {this.props.lecturerName}
                 {this.props.students.map((s, i) =>
                     <Student
@@ -27,7 +27,7 @@ export class Lecture extends React.PureComponent<LectureProps, {}> {
                         {...s}
                     />
                 )}
-            </div>
+            </>
         );
     }
 }
