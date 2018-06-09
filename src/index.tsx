@@ -8,12 +8,12 @@ class Index extends React.Component<{}, {}> {
     public render(): JSX.Element {
         const students: Array<StudentProps> = [
             {
-                name: 'Mark',
-                surname: 'Markson'
+                name: 'Hrvoje',
+                surname: 'Bagaric'
             },
             {
-                name: 'Steven',
-                surname: 'Stevenson'
+                name: 'Dino',
+                surname: 'Kacavenda'
             }
         ];
         return (
